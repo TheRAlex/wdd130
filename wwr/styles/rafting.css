@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #15193b;
+    --secondary-color:#301328;
+    --secondary-color:#b8b80f;
+    --accent1-color:#0b0f1f;
+    --accent2-color:#e3ae32;
+    --heading-font: "Verdana", "Georgia", serif;
+    --body-font: sans-serif, "Garamond", Arial;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head{
+    background-color: var(--primary-color);
+    color:var(--accent2-color)
+}
+
+body{
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
