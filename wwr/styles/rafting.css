@@ -60,7 +60,7 @@ h1{
 
 
 
-article {
+.hero article {
     position: absolute;
     top: 259px;
     width: 100%;
@@ -99,7 +99,7 @@ section p{
 }
 
 
-.socialmedia{
+.socialmedia a{
 margin: 0;
 padding: 10px;
 opacity: 0.9;
