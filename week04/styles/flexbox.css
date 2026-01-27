@@ -4,10 +4,12 @@ body {
 }
 
 .flex-container {
+    list-style-type: none;
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .flex-item {
@@ -29,4 +31,10 @@ body {
 
 .item3 {
     min-height: 300px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
 }
