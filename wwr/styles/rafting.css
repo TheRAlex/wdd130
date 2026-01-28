@@ -32,6 +32,40 @@ h2 {
     color: var(--accent2-color);
 }
 
+header {
+    margin: 0.8rem auto;
+    display: grid;
+    grid-template-columns: 350px 1fr 1fr;
+    align-items: center;
+    background-color: #e3ae32;
+    border: 1px solid #000;
+    max-width: 1000px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex-direction: column;
+}
+
+.navigation a {
+    display: block;
+    color: #000;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 120px;
+    height: auto;
+}
+
 nav,
 p,
 section,
