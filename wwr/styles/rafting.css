@@ -133,7 +133,6 @@ section p {
 }
 
 section img {
-    margin-right: 0 auto;
     width: 240px;
     height: auto;
     float: right;
