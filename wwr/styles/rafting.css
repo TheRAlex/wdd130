@@ -54,10 +54,9 @@ header {
 .navigation a {
     display: block;
     color: #000;
-    margin: auto;
     padding: 30px;
-    border: 1px solid #000;
-    font-size: 1.2rem;
+    text-decoration: none;
+    font-size: 20pxrem;
 }
 
 header img {
@@ -119,6 +118,7 @@ h1 {
 section h2 {
     top: 20px;
     width: 100%;
+    margin-bottom: 20px;
     padding: 16px;
     text-align: center;
     opacity: 0.9;
@@ -132,6 +132,27 @@ section p {
 
 }
 
+section img {
+    width: 240px;
+    height: auto;
+    float: right;
+}
+
+.figures img {
+    display: block;
+    width: 200px;
+    height: auto;
+
+}
+
+.figures {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: flex-start;
+}
+
 .socialmedia a {
     margin: 0;
     padding: 10px;
@@ -141,5 +162,6 @@ section p {
 
 footer {
     border-top: 1px solid #000;
-    text-align: left;
+    text-align: right;
+    justify-content: center;
 }
