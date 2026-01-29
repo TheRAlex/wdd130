@@ -133,6 +133,7 @@ section p {
 }
 
 section img {
+    margin-right: 0 auto;
     width: 240px;
     height: auto;
     float: right;
@@ -146,11 +147,10 @@ section img {
 }
 
 .figures {
-    margin: 0 auto;
     display: flex;
     gap: 20px;
     text-align: center;
-    align-items: flex-start;
+    justify-content: center;
 }
 
 .socialmedia a {
