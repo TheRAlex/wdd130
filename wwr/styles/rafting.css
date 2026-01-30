@@ -138,9 +138,15 @@ section img {
     float: right;
 }
 
+.flex-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .figures img {
     display: block;
-    width: 200px;
+    width: 143px;
     height: auto;
 
 }
