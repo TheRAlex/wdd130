@@ -4,34 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>Poll form</title>
 </head>
 
 <body>
     <header>
-
+        <H1>WDD 130 | HTML Form - User Poll</H1>
     </header>
 
     <main>
         <form>
-            <label for="fullname">Full Name:</label>
-            <input type="text" name="fullname" id="fullname" required>
-            <label for="usermail"> Email:</label>
-            <input type="email" name="usermail" id="usermail" required>
+            <div class="form-item column2">
+                <fieldset>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" name="fullname" id="fullname" required>
+                </fieldset>
+            </div>
+            <div class="form-item column2">
+                <fieldset>
+                    <label for="usermail"> Email:</label>
+                    <input type="email" name="usermail" id="usermail" required>
+                </fieldset>
+            </div>
 
-            <label for="browser">What is your favorite browser?</label>
-            <select name="quantity" id="quantity">
-                <option value="chrome">Chrome</option>
-                <option value="safari">Safari</option>
-                <option value="opera">Opera</option>
-                <option value="brave">Brave</option>
-                <option value="other">Other</option>
-            </select>
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" name="household" id="household">
-            <label for="feedback">List the places you have lived</label>
-            <textarea name="feedback" id="feedback" rows="4"
-              placeholder="Stillwater Florida, Amsterdam Netherlands. Timbuktu Mali"></textarea>
+            <div clas="form-item column1">
+                <fieldset>
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="quantity" id="quantity">
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="opera">Opera</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+            </div>
+
+            <div class="form-item column1">
+                <fieldset>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="household" id="household">
+                    <label for="feedback">List the places you have lived</label>
+                    <textarea name="feedback" id="feedback" rows="4"
+                      placeholder="Stillwater Florida, Amsterdam Netherlands. Timbuktu Mali"></textarea>
+                </fieldset>
+            </div>
 
             <button type="submit">Submit Poll</button>
         </form>
