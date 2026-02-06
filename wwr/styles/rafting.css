@@ -153,7 +153,7 @@ section img {
 
 .figures {
     display: flex;
-    gap: 20px;
+    gap: 150px;
     text-align: center;
     justify-content: center;
 }
@@ -170,3 +170,36 @@ footer {
     text-align: right;
     justify-content: center;
 }
+
+.contact{
+    text-align: center;
+}
+
+
+.map{ 
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.radio-label{
+    display: block;
+    margin-top: 10px;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.message-label{
+    float: left;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+button{
+    width: 300px;
+}
+
+
+
+
+
