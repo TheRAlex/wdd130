@@ -171,6 +171,11 @@ footer {
     justify-content: center;
 }
 
+.about{
+    position: relative;
+    padding-bottom:100px ;
+}
+
 .contact{
     text-align: center;
 }
