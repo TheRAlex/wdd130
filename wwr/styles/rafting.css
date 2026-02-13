@@ -234,8 +234,8 @@ button {
 .call {
     position: absolute;
     top: 691px;
-    left: 532px;
-    width: 18%;
+    left: 600px;
+    width: 20%;
     padding: 16px;
     text-align: center;
     opacity: 0.8;
@@ -248,8 +248,8 @@ button {
     position: absolute;
     width: 299px;
     height: auto;
-    bottom: 130px;
-    left: 530px;
+    bottom: 50px;
+    left: 600px;
     color: #000;
     background-color: #e3ae32;
 }
